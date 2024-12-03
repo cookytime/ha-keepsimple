@@ -1,0 +1,15 @@
+{
+    "domain": "keepsimple_lights",
+    "name": "Keepsimple Bluetooth Lights",
+    "version": "1.0.0",
+    "documentation": "https://github.com/yourusername/keepsimple_lights",
+    "requirements": ["bleak>=0.19.0"],
+    "codeowners": ["@yourusername"],
+    "iot_class": "local_push",
+    "bluetooth": [
+      {
+        "service_uuid": "SERVICE_UUID_OF_KEEPSIMPLE_LIGHTS"
+      }
+    ]
+  }
+  
