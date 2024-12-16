@@ -5,11 +5,4 @@
     "documentation": "https://github.com/cookytime/ha-Keepsimple",
     "requirements": ["bleak>=0.19.0"],
     "codeowners": ["@cookytime"],
-    "iot_class": "local_push",
-    "bluetooth": [
-      {
-        "service_uuid": "00001800-0000-1000-8000"
-      }
-    ]
-  }
-  
+    "iot_class": "local_polling",
